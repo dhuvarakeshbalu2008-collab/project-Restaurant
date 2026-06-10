@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150">
+  <rect width="200" height="150" fill="#f5ebe0"/>
+  <ellipse cx="100" cy="75" rx="70" ry="45" fill="#fff8f0" stroke="#d4a574" stroke-width="2"/>
+  <circle cx="70" cy="70" r="18" fill="#fff" stroke="#e8c9a0" stroke-width="1.5"/>
+  <circle cx="100" cy="65" r="18" fill="#fff" stroke="#e8c9a0" stroke-width="1.5"/>
+  <circle cx="130" cy="70" r="18" fill="#fff" stroke="#e8c9a0" stroke-width="1.5"/>
+  <circle cx="85" cy="90" r="16" fill="#fff" stroke="#e8c9a0" stroke-width="1.5"/>
+  <circle cx="115" cy="90" r="16" fill="#fff" stroke="#e8c9a0" stroke-width="1.5"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="16" font-weight="600" fill="#8b4513">Idly</text>
+</svg>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>South Spice Restaurant — Order</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>South Spice Restaurant</h1>
+      <nav>
+        <a href="index.html" class="nav-link active">Order</a>
+        <a href="admin.html" class="nav-link">Admin</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="menu-section">
+      <h2>Menu</h2>
+      <p class="section-hint">Click any item to add it to your bill</p>
+      <div id="menu-grid" class="menu-grid"></div>
+    </section>
+
+    <aside class="cart-section">
+      <h2>Your Bill</h2>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-total-row">
+        <span>Total</span>
+        <span id="cart-total">₹0.00</span>
+      </div>
+      <div class="cart-actions">
+        <button type="button" id="btn-pay" class="btn btn-primary">Pay Now</button>
+        <button type="button" id="btn-print" class="btn btn-secondary">Print Bill</button>
+        <button type="button" id="btn-clear" class="btn btn-outline">Clear Cart</button>
+      </div>
+    </aside>
+  </main>
+
+  <div id="print-bill" class="print-bill" aria-hidden="true"></div>
+
+  <div id="pay-modal" class="modal">
+    <div class="modal-content">
+      <h2>Pay Now</h2>
+      <p class="modal-subtitle">Scan QR to pay via UPI</p>
+      <div id="pay-summary" class="pay-summary"></div>
+      <div id="qr-code" class="qr-code"></div>
+      <div class="modal-actions">
+        <button type="button" id="btn-confirm-pay" class="btn btn-primary">Payment Done</button>
+        <button type="button" id="btn-close-modal" class="btn btn-outline">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="js/storage.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>

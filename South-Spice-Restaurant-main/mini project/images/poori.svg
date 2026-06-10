@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150">
+  <rect width="200" height="150" fill="#fef3e2"/>
+  <ellipse cx="100" cy="80" rx="55" ry="35" fill="#f4d03f" stroke="#d4a017" stroke-width="2"/>
+  <ellipse cx="85" cy="75" rx="25" ry="18" fill="#f9e076" stroke="#d4a017" stroke-width="1"/>
+  <ellipse cx="115" cy="78" rx="22" ry="16" fill="#f9e076" stroke="#d4a017" stroke-width="1"/>
+  <ellipse cx="100" cy="85" rx="20" ry="14" fill="#f9e076" stroke="#d4a017" stroke-width="1"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="16" font-weight="600" fill="#8b6914">Poori</text>
+</svg>

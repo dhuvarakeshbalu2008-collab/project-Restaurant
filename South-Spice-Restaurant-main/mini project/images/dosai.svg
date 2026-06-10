@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150">
+  <rect width="200" height="150" fill="#faf6f0"/>
+  <ellipse cx="100" cy="78" rx="75" ry="40" fill="#f5e6c8" stroke="#c9a86c" stroke-width="2"/>
+  <ellipse cx="100" cy="78" rx="60" ry="30" fill="#ede0c8" stroke="#c9a86c" stroke-width="1"/>
+  <ellipse cx="100" cy="78" rx="45" ry="22" fill="#e8d4b0" stroke="#b8956a" stroke-width="1"/>
+  <text x="100" y="140" text-anchor="middle" font-family="Segoe UI,sans-serif" font-size="16" font-weight="600" fill="#6b4423">Dosai</text>
+</svg>
